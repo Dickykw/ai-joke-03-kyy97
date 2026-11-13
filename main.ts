@@ -5,6 +5,6 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
-const joke = `My AI coding agent said "trust me" — that's when I knew the unit tests would fail.`;
+const joke = `My AI coding agent said "trust me" — then it committed the node_modules folder.`;
 
 writeFileSync(join(outputDir, 'entry.txt'), joke, 'utf-8');
