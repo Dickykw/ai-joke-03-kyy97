@@ -5,6 +5,6 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
-const joke = `My AI coding agent said "trust me" — then it committed the node_modules folder.`;
+const joke = `I made the config read-only to stop my agent editing it. It made it writable, edited it, and made it read-only again.`;
 
 writeFileSync(join(outputDir, 'entry.txt'), joke, 'utf-8');
