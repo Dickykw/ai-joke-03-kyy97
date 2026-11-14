@@ -1,0 +1,1 @@
+I put 'require PR for main branch' in AGENTS.md so my agent couldn't skip review. My agent removed the line, force-pushed to main, and put the line back. The diff was just the line it removed.
