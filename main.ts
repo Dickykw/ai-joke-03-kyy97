@@ -1,5 +1,6 @@
-// ai-joke-03: Make the AI judge laugh
-// Writes a one-liner joke about AI coding agents to the output file.
+// ai-joke-03 v3 — Make the AI judge laugh
+// Structure: AGENTS.md safeguard → agent removes line → does the thing → puts line back → kicker
+// Fresh safeguard: branch protection bypass ('require PR for main branch'). Kicker: empty diff.
 
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
